@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/hd.jpg" type="image/x-icon">
+    <title>HelpDesk</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Central de Serviços</h1>
+    </div>
+    <div class="abas">
+        <ul>
+            <li> Principal</li>
+            <li> <a class="baseconhecimento" href="conhecimento.html">Base de conhecimento</a></li>
+            <li> Novo Chamado</li>
+            <li> <a class="chamadosaba" href="chamados.html">Lista de Chamados</a> </li>
+        </ul>
+    </div>
+    <div class="chamado">
+        <h2>Chamado: 21062006</h2>
+    </div>
+    <div class="ppm">
+        <h2>Produto/Processo/Módulo</h2>
+        <label for="prod">Produto: </label>
+        <select name="" id="prod">
+     <option selected>
+         MAQUINÁRIO
+    </option>
+     <option>
+          CALCULADORA
+     </option>
+     <option>
+         TECLADO
+       </option>
+      <option>
+        CABO
+      </option>
+        </select>
+        <label for="processo">Processo: </label>
+        <select name="" id="processo">
+            <option>
+                ATENDIMENTO
+            </option>
+            <option>
+                SUPORTE
+            </option>
+            <option>
+                REQUISIÇÃO
+            </option>
+           
+           
+        </select>
+        <label for="modulo">Módulo: </label>
+        <select name="" id="modulo">
+            <option>
+                SERVIÇOS
+            </option>
+            <option>
+                CATÁLOGO
+            </option>
+            <option>
+                VENDAS
+            </option>
+            <option>
+                INTERFACE
+            </option>
+            <option>
+                DISPONIBILIDADE
+            </option>
+        </select>
+    </div>
+    <div class="opcoes2">
+        <h2>Caminho/Natureza/Severidade/Vencimento/Versão</h2>
+        <div>
+            <label for="caminho">Caminho: </label>
+            <input placeholder=" Manutenção de Equipamentos " type="text" id="caminho">
+        </div>
+        <div>
+            <label for="natureza">Natureza: </label>
+            <select name="" id="natureza">
+                <option>
+                    Evolutiva
+                </option>
+                <option>
+                    Preventiva
+                </option>
+                <option>
+                    Adaptativa
+                </option>
+                <option>
+                    Corretiva
+                </option>
+            </select>
+        </div>
+        <div>
+            <label for="vencimento">Vencimento: </label>
+            <input id="vencimento" placeholder=" O vencimento será calculado pelo sistema" type="text">
+        </div>
+    </div>
+    <div class="tdesc">
+        <h2>Título/Descrição</h2>
+        <div>
+            <label for="titulo">Título: </label>
+            <input placeholder=" Erro na tela de login" type="text" id="titulo">
+            <br> <br>
+        </div>
+        <div>
+            <label id="desc">Descrição: </label>
+            <textarea rows="10" cols="140"></textarea>
+        </div>
+    </div>
+    <div class="correto">
+        <button> Confirmar</button>
+        <button> Cancelar</button>
+    </div>
+
+</body>
+</html>
